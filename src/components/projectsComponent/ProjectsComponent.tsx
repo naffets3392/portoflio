@@ -13,7 +13,7 @@ function ProjectsComponent() {
         <div>
           <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-5 justify-between'>
               {projects.map(project => {
-                return <div className='border-2 rounded-md p-3'>
+                return <div key={project.title} className='border-2 rounded-md p-3'>
                   <h1>{project.title}</h1>
                   <h3>{project.description}</h3>
                   <div className='relative h-[20vh] w-[100%] my-3'>
