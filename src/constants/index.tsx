@@ -21,13 +21,13 @@ export const projects = [
     },
     {
         title: 'Shop Project',
-        description: "I don't remember what I did here",
+        description: "I dont remember what I did here",
         github: "https://github.com/naffets3392/shopproject",
         image: shopImage
     },
     {
         title: 'Memory Game Project',
-        description: "One of my first projects",
+        description: 'One of my first projects',
         github: "https://github.com/naffets3392/memorygame-project",
         image: memoryGameImage
     },
